@@ -12,7 +12,7 @@ const index = (): JSX.Element => {
       <Text style={tw`text-red-500 text-xl text-center mb-2`}>Open up /app/index.tsx to start working on your app!</Text>
       <Pressable
         style={tw`h-20 w-8/12 border-red-500 border-2 rounded-xl items-center justify-center`}
-        onPress={() => router.push('/Home')}  
+        onPress={() => { router.push('/Home') }}
       >
         <Text style={tw`text-red-500 text-2xl text-center`}>Press Me</Text>
       </Pressable>
