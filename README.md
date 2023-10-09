@@ -41,7 +41,20 @@ Follow these steps to run **expo-template-starter-app**:
 
    ```bash
    npx expo start
+
+
+### Linting
+
+Follow these steps to ensure your changes respect best practices for **expo-template-starter-app**:
+
+1. Run the code to check for lint errors
+    ```bash
+    npm run lint
+Ensure there are no conflicts.
+
 ### Production
+
+c to generate a production build for the **expo-template-starter-app**:
 
 1. Run expo doctor:
      ```bash
