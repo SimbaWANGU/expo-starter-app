@@ -1,6 +1,41 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
-  }
+    "jsx": "react",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@Api/*": [
+        "./src/api/*"
+      ],
+      "@Components/*": [
+        "./src/components/*"
+      ],
+      "@Constants/*": [
+        "./src/constants/*"
+      ],
+      "@Interfaces/*": [
+        "./src/interfaces/*"
+      ],
+      "@State/*": [
+        "./src/state/*"
+      ],
+      "@Hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@Images/*": [
+        "./assets/images/*"
+      ],
+      "@Fonts/*": [
+        "./assets/fonts/*"
+      ],
+      "@Utils/*": [
+        "./src/utils/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }
