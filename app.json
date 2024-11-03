@@ -1,12 +1,13 @@
 {
   "expo": {
-    "name": "template-expo-typescript",
-    "slug": "template-expo-typescript",
+    "name": "expo-template-starter-app",
+    "slug": "expo-template-starter-app",
     "scheme": "expots",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,19 +17,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.simbawangu.templateexpotypescript"
+      "supportsTablet": true
+      
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.simbawangu.templateexpotypescript"
+      }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
+    "plugins": [
+      "expo-router"
+    ],
     "extra": {
       "eas": {
         "projectId": "2e4f7875-42d4-475c-bce8-501977f33291"
